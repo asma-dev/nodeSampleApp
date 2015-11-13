@@ -1,0 +1,18 @@
+{
+  "appenders": [
+    {
+      "type": "file",
+      "category": "debug",
+      "filename": "logs/debug.log"
+    },
+    {
+      "type": "file",
+      "category": "production",
+      "filename": "logs/app.log"
+    }
+  ],
+  "levels": {
+    "debug": "ALL",
+    "production": "WARN"
+  }
+}
